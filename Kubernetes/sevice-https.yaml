@@ -9,6 +9,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-ssl-cert: "arn:aws:acm:eu-west-1:600920219683:certificate/a3c15d29-9dbc-41be-91a5-5a13bab2df51" # SSL sertifika ARN'si
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "HTTP" # Backend'in HTTP kullandığını belirtir
     service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443" # HTTPS portunu belirtir
+    service.beta.kubernetes.io/aws-load-balancer-ssl-redirect: "true" # HTTP'den HTTPS'ye yönlendirme
 spec:
   type: LoadBalancer
   ports:
