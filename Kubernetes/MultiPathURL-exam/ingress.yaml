@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: netflix-app-ingress
+  annotations:
+    kubernetes.io/ingress.class: "alb"
+    #alb.ingress.kubernetes.io/load-balancer-name: "Netflix"
+    alb.ingress.kubernetes.io/scheme: "internet-facing"
+    alb.ingress.kubernetes.io/certificate-arn: "arn:aws:acm:eu-west-1:600920219683:certificate/8ee85051-fc96-49be-8e53-a9d843564f73"
+    alb.ingress.kubernetes.io/path: "/*"
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
+spec:
+  rules:
+    - host: "netflix.sbaylab.com"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: netflix-app-service
+                port:
+                  number: 80
+    - host: "netflix2.sbaylab.com"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: netflix-app-service2
+                port:
+                  number: 80
