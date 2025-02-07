@@ -16,10 +16,13 @@ Bu proje, AWS EKS üzerinde çalışan bir **Netflix Clone** uygulamasının **D
 **Kubernetes,Docker,Docker hub,Jenkins, Sonarqube, Nexus,OWASP, Trivy, Docker-Scout** gibi araçlarla tam otomatik ve güvenli bir yazılım teslim süreci oluşturulmuştur.  
 
 📌 **Projede Kullanılan Teknolojiler:**  
-✅ AWS,EKS,EC2,
-✅ Jenkins, Nexus
-✅ DevOps Security Tools
-✅ Docker & Kubernetes  
+<br>✅ AWS  
+<br>✅ EKS  
+<br>✅ EC2  
+<br>✅ Jenkins  
+<br>✅ Nexus  
+<br>✅ DevOps Security Tools  
+<br>✅ Docker & Kubernetes  
 
 ---
 
