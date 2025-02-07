@@ -13,12 +13,12 @@
 ## 🛠️ DevSecOps CI/CD - Netflix Clone Project
 
 Bu proje, AWS EKS üzerinde çalışan bir **Netflix Clone** uygulamasının **DevSecOps yaklaşımıyla** nasıl CI/CD süreçleri kullanılarak dağıtılacağını göstermektedir.  
-**Terraform, Kubernetes, Jenkins, Sonatype Nexus, Docker, AWS ECR, Helm** gibi araçlarla tam otomatik ve güvenli bir yazılım teslim süreci oluşturulmuştur.  
+**Kubernetes,Docker,Docker hub,Jenkins, Sonarqube, Nexus,OWASP, Trivy, Docker-Scout** gibi araçlarla tam otomatik ve güvenli bir yazılım teslim süreci oluşturulmuştur.  
 
 📌 **Projede Kullanılan Teknolojiler:**  
-✅ AWS EKS, ECR, S3, IAM, Route53  
-✅ Terraform & Helm  
-✅ Jenkins & Sonatype Nexus  
+✅ AWS,EKS,EC2,
+✅ Jenkins, Nexus
+✅ DevOps Security Tools
 ✅ Docker & Kubernetes  
 
 ---
