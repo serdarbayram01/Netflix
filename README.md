@@ -10,8 +10,31 @@
 
 ---
 
+## 🛠️ DevSecOps CI/CD - Netflix Clone Project
+
+Bu proje, AWS EKS üzerinde çalışan bir **Netflix Clone** uygulamasının **DevSecOps yaklaşımıyla** nasıl CI/CD süreçleri kullanılarak dağıtılacağını göstermektedir.  
+**Terraform, Kubernetes, Jenkins, Sonatype Nexus, Docker, AWS ECR, Helm** gibi araçlarla tam otomatik ve güvenli bir yazılım teslim süreci oluşturulmuştur.  
+
+📌 **Projede Kullanılan Teknolojiler:**  
+✅ AWS EKS, ECR, S3, IAM, Route53  
+✅ Terraform & Helm  
+✅ Jenkins & Sonatype Nexus  
+✅ Docker & Kubernetes  
+
+---
+
+## 📌 Proje Topolojisi
+
+Aşağıdaki diyagram, sistemin genel mimarisini göstermektedir:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4452878a-73e9-4ab1-a0c0-a6a9c7daee29" alt="Project Topology">
+</div>
+
+---
+
 ## 📖 Blog Post
-📌 CICD Projelendirmesi için blog yazımı okuyabilirsiniz:  
+📌 Daha detaylı bilgi için blog yazısını okuyabilirsiniz:  
 👉 **[DevSecOps: Deploying a Netflix Clone CI/CD Project on AWS EKS](https://www.serdarbayram.net/devsecops-deploying-a-netflix-clone-ci-cd-project-on-aws-eks.html)**
 
 ---
